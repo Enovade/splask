@@ -1,0 +1,21 @@
+name: 'SPLaSK Application GitHub Action'
+description: 'Sending request to SPLaSK application'
+author: 'Hanafiah <hanafiah@enovade.com>'
+inputs:
+  splaskurl:
+    description: 'URL for SPLaSK Application'
+    required: true
+  url:
+    description: 'URL for SPLaSK assessment'
+    required: true
+  scope:
+    description: 'Scope for SPLaSK assessment'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+branding:
+  color: 'blue'
+  icon: 'activity'

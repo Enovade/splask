@@ -1,0 +1,24 @@
+{
+  "name": "splask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enovade/splask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enovade/splask/issues"
+  },
+  "homepage": "https://github.com/Enovade/splask#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "axios": "^0.27.2"
+  }
+}
