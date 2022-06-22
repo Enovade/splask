@@ -11,7 +11,10 @@ inputs:
   scope:
     description: 'Scope for SPLaSK assessment'
     required: true
-
+outputs:
+  jawapan: 
+    description: 'The results'
+    
 runs:
   using: 'node16'
   main: 'dist/index.js'

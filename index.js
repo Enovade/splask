@@ -10,7 +10,9 @@ let payload = {
 }
 let getSplask = axios.post(splaskurl, payload)
 .then(res => {
-    console.log(res)
+    console.log(res.data)
+    let myData = JSON.stringify(res.data)
+    core.setOutput('jawapan', myData);
 })
 .catch(err => {
     console.error(err); 
